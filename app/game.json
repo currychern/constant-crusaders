@@ -1,0 +1,54 @@
+{
+  "window": {
+    "w": 1019, "h": 714,
+    "color_corner": "5c2311",
+    "reset" : { 
+      "confirm": { "x": 415, "y": 520 },
+      "button_press": { "x": 520, "y": 540 },
+      "continue": { "x": 520, "y": 555 } 
+    }
+  },
+  "campaign": {
+    "section_loot": {
+      "x": 575, "y": 210, "w": 280, "h": 220
+    },
+    "section_area": {
+      "x": 755, "y": 15, "w": 198, "h": 118, "n": 5
+    },
+    "line_instakill": {
+      "x": 20, "y_min": 155, "y_max": 480
+    },
+    "arrow_continue": {
+      "x": 926, "y": 213, "w": 35, "h": 10
+    }
+  },
+  "characters": {
+    "x": 38, "y": 505, "w": 315, "h": 86,
+    "color_active": "1bc718",
+    "picture": {
+      "x": 44, "y": 509, "w": 50, "h": 50,
+      "color_border": "9c513c"
+    },
+    "button_level": {
+      "x": 253, "y": 510, "w": 88, "h": 39,
+      "color_active": "1a4402",
+      "color_inactive": "313131"
+    },
+    "button_upgrade": {
+      "x": 45, "y": 569, "w": 23, "h": 3,
+      "dist": 29,
+      "color_reset": { "min": 176, "max": 190 }
+    },
+    "buttons_panel": {
+      "left": { "x": 20, "y": 590 },
+      "right": { "x": 995, "y": 590 },
+      "color_active": "ffb103",
+      "color_inactive": "a07107"
+    },
+    "buttons_all": {
+      "upgrade_all": { "x": 995, "y": 520 },
+      "level_all": { "x": 995, "y": 620 }
+    }
+  }
+}
+

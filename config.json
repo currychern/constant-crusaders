@@ -1,0 +1,31 @@
+{
+  "pos_corner": null,
+  "delay": {
+    "short": 50,
+    "short_b": 1000,
+    "medium": 3000,
+    "long": 5000,
+    "long_b": 13000,
+
+    "checkArea": 37000,
+    "collectLoot" : 2300,
+    "levelUp" : {
+      "short": 13000,
+      "long": 29000
+    },
+    "clickAll": 127000,
+    "checkInstakill" : 17000,
+    "checkReset": 7000
+  },
+  "campaign": {
+    "stage" : null,
+    "area" : 0,
+    "level_reset": 0,
+    "auto_reset": false
+  },
+  "character": {
+    "dps": 3,
+    "reset" : 20
+  }
+}
+

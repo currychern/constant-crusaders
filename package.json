@@ -1,0 +1,16 @@
+{
+  "name": "constant-crusaders",
+  "version": "0.1.0",
+  "description": "a bot that plays Crusaders of the Lost Idols",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Curry Chern",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "q": "^1.4.1",
+    "robotjs": "^0.4.4"
+  }
+}
