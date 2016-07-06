@@ -29,7 +29,7 @@ Constant Crusaders has been tested on Windows and Ubuntu using Chrome, but shoul
 
 5. Open the terminal and run `node app` within the project directory.
 
-6. Help locate the upper left corner of the game. Follow the prompts or enter the position of the upper left corner in config.json if you already know it. **Note: the corner position has to be precise**
+6. Help locate the upper left corner of the game. Follow the prompts or enter the position of the upper left corner in `config.json` if you already know it. **Note: the corner position has to be precise**
 
 ![CornerImage](https://raw.githubusercontent.com/currychern/constant-crusaders/master/assets/corner.jpg)
 
@@ -37,16 +37,23 @@ Constant Crusaders has been tested on Windows and Ubuntu using Chrome, but shoul
 
 An objective is split up into four stages:
 
-1. `Start`: Only the clicker character is on the map. The goal is to collect loot and kill monsters and get a non-clicker character on the map.
-2. `Early`: A non-clicker character is now on the map. The goal is to collect loot, level and upgrade characters, and place them into formation.
-3. `Middle`: All characters are now on the board. The goal is to collect loot and upgrade the main DPS character, while occasionally upgrading the other characters.
-4. `End`: The characters have stalled. The goal is to kill monsters and rapidly upgrade the main DPS character.
+1. `Start` - Only the clicker character is on the map.
+    The goal is to collect loot and kill monsters and get a non-clicker character on the map.
 
-The app will advance the game through all four stages based on information provided in the config.json file.
+2. `Early` - A non-clicker character is now on the map.
+    The goal is to collect loot, level and upgrade characters, and place them into formation.
+
+3. `Middle` - All characters are now on the board.
+    The goal is to collect loot and upgrade the main DPS character, while occasionally upgrading the other characters.
+
+4. `End` - The characters have stalled.
+    The goal is to kill monsters and rapidly upgrade the main DPS character.
+
+The app will advance the game through all four stages based on information provided in the `config.json` file.
 
 ## Configuration
 
-Use the config.json file to setup your game. Here are the descriptions for the fields:
+Use the `config.json` file to setup your game. Here are the descriptions for the fields:
 
 - `pos_corner`: the position [x,y] of the upper left corner of the game
 
